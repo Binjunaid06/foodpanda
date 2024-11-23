@@ -1,0 +1,420 @@
+.logo {
+    inline-size: 0px;
+    margin-left: 30px;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 13px;
+    margin: -7px;
+    padding: 10px;
+    z-index: 100;
+
+}
+
+.right {
+    float: right;
+    word-spacing: 10px;
+    margin-right: 17%;
+    margin-top: -40px;
+}
+
+.login {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 25px;
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login:hover {
+
+    transform: scale(1.14);
+    transition: ease-out 0.2s;
+}
+
+.login:active {
+    background-color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
+
+}
+
+.signup {
+    border: 0;
+    background-color: rgb(228, 56, 85);
+    border-radius: 7px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: ease-out 0.2s;
+}
+
+.signup:hover {
+
+    transform: scale(1.14);
+
+}
+
+.globe {
+    position: absolute;
+    top: 28px;
+    padding-left: 2%;
+    /* background-color: aquamarine; */
+
+    width: 25px;
+    height: 25px;
+}
+
+.globe:hover {
+    transition: ease-in-out 0.1s;
+    background-color: rgb(231, 224, 224);
+    color: black;
+}
+
+.bag {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 150px;
+    top: 28px;
+}
+
+
+
+.main img {
+    position: absolute;
+    right: 0px;
+    float: right;
+    background-color: rgb(255, 246, 246);
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+    object-position: left 20%;
+
+}
+
+.texxt {
+    font-size: 20px;
+    margin: 17% 0 0 50px;
+    position: absolute;
+    z-index: 1;
+    inline-size: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    background-color: rgb(255, 245, 245);
+    object-fit: cover;
+    height: 630px;
+}
+
+.bar {
+    padding: 3%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.bar img {
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin-right: 210px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#search {
+    width: 75%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.find-me {
+    font-size: 17px;
+    color: white;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: rgb(228, 56, 85);
+    border: 1px solid rgb(172, 95, 108);
+    margin-left: 20px;
+}
+
+.find-me:hover {
+    background-color: rgb(228, 56, 85);
+    transform: scale(1.14);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.chef {
+    /* background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1264&height=808.96');
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto; */
+    background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1264&height=808.96');
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 400px;
+    margin-left: 50px;
+
+}
+
+.box {
+    padding: 20px;
+    word-spacing: 4px;
+    background-color: white;
+    margin-top: -120px;
+    margin-left: 80px;
+    margin-right: 3px;
+    border-radius: 8px;
+    inline-size: 600px;
+    border: 1px solid rgb(255, 253, 253);
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 30px 0px;
+
+}
+
+.word {
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.start {
+    margin-left: 10px;
+    background-color: rgb(228, 56, 85);
+    border-color: rgb(228, 56, 85);
+    border-radius: 7px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: ease-out 0.2s;
+    cursor: pointer;
+
+}
+
+.start:hover {
+    background-color: rgb(228, 56, 85);
+    transform: scale(1.14);
+
+    transition: ease-in-out 0.2s;
+}
+
+.cities {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sheher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.sheher img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    text-overflow: ellipsis;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.sheher img:hover {
+    transform: scale(1.18);
+    box-shadow: 0 0 10px 5px;
+    opacity: 0.7;
+}
+
+.naam {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid grey;
+    border-color: rgb(230, 221, 221);
+    border-radius: 6px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    margin-left: 5px;
+    display: flex;
+    position: absolute;
+
+}
+
+
+
+.locateme {
+    font-size: 17px;
+    cursor: pointer;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -110px;
+    cursor: pointer;
+}
+
+
+.pocket {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.download {
+    border: 1px solid pink;
+    border-radius: 7px;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fb0066;
+    position: relative;
+    color: white;
+}
+
+.qr {
+    border: 2px solid white;
+    padding: 4px;
+    border-radius: 7px;
+    margin-left: 25px;
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+
+}
+
+.pocket .download p {
+    display: inline-block;
+    /* background-color: aqua; */
+    width: 38.5%;
+    padding: 5px;
+    position: relative;
+    bottom: 40px;
+    margin-left: 30px;
+}
+
+.apple {
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    width: 120px;
+    height: auto;
+    margin-left: 25px;
+    /* background-color: blue; */
+}
+
+.google {
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    width: 120px;
+    height: auto;
+    margin-left: 25px;
+    /* background-color: blue; */
+}
+
+.down {
+    margin-left: 25px;
+    /* background-color: blue; */
+    inline-size: 0px;
+}
+
+.phone {
+    height: auto;
+    width: 100%;
+}
+
+.office {
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meeting {
+    /* background-image: url('https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1264&height=808.96');
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto; */
+    background-image: url('https://images.deliveryhero.io/image/foodpanda/home-corporate-pk.jpg?width=1264&height=808.96');
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 404px;
+    margin-left: 50px;
+
+}
+
+.box1 {
+
+    padding: 20px;
+    background-color: white;
+    margin-top: -120px;
+    margin-left: 80px;
+    margin-right: 3px;
+    border-radius: 8px;
+    inline-size: 600px;
+    border: 1px solid rgb(255, 253, 253);
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 30px 0px;
+}
+
+.phone img{
+    position: absolute;
+    left: 50%;
+    top: -150px;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.order {
+    width: 96%;
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.order > p{
+    color: #979797;
+}
+
+.tick {
+   color: rgb(228, 56, 85) ; 
+}
+
+.names {
+    font-size: 18px;
+    color: #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.names:hover{
+cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: 0.3s ease-in;
+  
+
+}
